@@ -23,3 +23,7 @@ The user interface of the application is designed using CSS with a strong emphas
 Basic error handling mechanisms are implemented to manage scenarios such as invalid city names, unavailable weather data, or network-related issues. User-friendly error messages are displayed when incorrect input is provided, ensuring the application behaves reliably under different conditions. The project follows a modular development approach by separating HTML for structure, CSS for styling, and JavaScript for logic and API communication, which improves code readability, maintainability, and scalability.
 
 The tools and technologies used in this project include HTML5, CSS3, JavaScript, the Fetch API, and the Open-Meteo public API. Visual Studio Code was used as the primary development environment, along with the Live Server extension for local testing and automatic browser refresh. Google Chrome DevTools were utilized for debugging and testing mobile responsiveness. Overall, this project demonstrates practical knowledge of responsive web design, public API usage, asynchronous JavaScript programming, and dynamic content rendering.
+
+# OUTPUT
+
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/2785b54f-4199-44e5-8f17-f0a27beba56e" />
