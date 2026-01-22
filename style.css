@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-card {
+    width: 330px;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.weather-card:hover {
+    transform: scale(1.03);
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-icon {
+    width: 90px;
+    margin: 10px 0;
+}
+
+#time {
+    font-size: 14px;
+    color: gray;
+}
+
+@media (max-width: 400px) {
+    .weather-card {
+        width: 90%;
+    }
+}
